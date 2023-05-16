@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"godesde0/ejercicios"
+	"godesde0/teclado"
 )
 
 func main() {
@@ -29,8 +28,10 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero, mensaje := ejercicios.ConvierteaInt("19")
+	/*numero, mensaje := ejercicios.ConvierteaInt("19")
 	fmt.Println(numero)
-	fmt.Println(mensaje)
+	fmt.Println(mensaje)*/
+
+	teclado.IngresoNumeros()
 
 }
