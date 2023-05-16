@@ -1,6 +1,7 @@
 package main
 
-import "godesde0/iteraciones"
+// import "godesde0/iteraciones"
+import "godesde0/ejercicios"
 
 func main() {
 	// variables.MuestroEnteros()
@@ -32,6 +33,7 @@ func main() {
 
 	// teclado.IngresoNumeros()
 
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+	ejercicios.CrearTablaNumero()
 
 }
