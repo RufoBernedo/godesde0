@@ -1,7 +1,9 @@
 package main
 
 // import "godesde0/iteraciones"
-import "godesde0/ejercicios"
+import (
+	"godesde0/files"
+)
 
 func main() {
 	// variables.MuestroEnteros()
@@ -34,6 +36,11 @@ func main() {
 	// teclado.IngresoNumeros()
 
 	// iteraciones.Iterar()
-	ejercicios.CrearTablaNumero()
+	// texto := ejercicios.CrearTablaNumero()
+
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	// files.LeoArchivo()
+	files.LeoArchivo2()
 
 }

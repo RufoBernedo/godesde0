@@ -7,7 +7,9 @@ import (
 	"strconv"
 )
 
-func CrearTablaNumero() {
+var texto string
+
+func CrearTablaNumero() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Println("Ingrese un número: ")
@@ -17,9 +19,10 @@ func CrearTablaNumero() {
 				continue
 			}
 			for i := 1; i < 11; i++ {
-				fmt.Printf("%d x %d = %d \n", numero, i, i*numero)
+				texto += fmt.Sprintf("%d x %d = %d \n", numero, i, i*numero)
 			}
 			break
 		}
 	}
+	return texto
 }
