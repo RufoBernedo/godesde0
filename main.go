@@ -2,7 +2,8 @@ package main
 
 // import "godesde0/iteraciones"
 import (
-	"godesde0/files"
+	// "godesde0/files"
+	"godesde0/funciones"
 )
 
 func main() {
@@ -41,6 +42,8 @@ func main() {
 	// files.GrabaTabla()
 	// files.SumaTabla()
 	// files.LeoArchivo()
-	files.LeoArchivo2()
+	// files.LeoArchivo2()
+	// funciones.Calculos()
+	funciones.LLamarClosure()
 
 }
