@@ -3,7 +3,8 @@ package main
 // import "godesde0/iteraciones"
 import (
 	// "godesde0/files"
-	"godesde0/funciones"
+	// "godesde0/funciones"
+	"godesde0/arreglos_slices"
 )
 
 func main() {
@@ -45,6 +46,8 @@ func main() {
 	// files.LeoArchivo2()
 	// funciones.Calculos()
 	// funciones.LLamarClosure()
-	funciones.Exponencia(2)
-
+	// funciones.Exponencia(2)
+	// arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 }
