@@ -5,7 +5,10 @@ import (
 	// "godesde0/files"
 	// "godesde0/funciones"
 	// "godesde0/arreglos_slices"
-	"godesde0/mapas"
+	// "godesde0/mapas"
+	// "godesde0/users"
+	e "godesde0/ejer_interfaces"
+	modelos "godesde0/modelos"
 )
 
 func main() {
@@ -51,5 +54,10 @@ func main() {
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestroSlice()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	// users.AltaUsuario()
+	rufino := new(modelos.Hombre)
+	any := new(modelos.Mujer)
+	e.HumanosRespirando(rufino)
+	e.HumanosRespirando(any)
 }
