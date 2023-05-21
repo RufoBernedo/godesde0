@@ -7,8 +7,11 @@ import (
 	// "godesde0/arreglos_slices"
 	// "godesde0/mapas"
 	// "godesde0/users"
-	e "godesde0/ejer_interfaces"
-	modelos "godesde0/modelos"
+	// e "godesde0/ejer_interfaces"
+	// modelos "godesde0/modelos"
+	// dp "godesde0/defer_panic"
+	"fmt"
+	"godesde0/goroutines"
 )
 
 func main() {
@@ -56,8 +59,15 @@ func main() {
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
 	// users.AltaUsuario()
-	rufino := new(modelos.Hombre)
-	any := new(modelos.Mujer)
-	e.HumanosRespirando(rufino)
-	e.HumanosRespirando(any)
+	// rufino := new(modelos.Hombre)
+	// any := new(modelos.Mujer)
+	// e.HumanosRespirando(rufino)
+	// e.HumanosRespirando(any)
+	// dp.VemosDefer()
+	// dp.EjemploPanic()
+	go goroutines.MiNombreLento("Rufino Bernedo")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
