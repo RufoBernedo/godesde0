@@ -4,7 +4,8 @@ package main
 import (
 	// "godesde0/files"
 	// "godesde0/funciones"
-	"godesde0/arreglos_slices"
+	// "godesde0/arreglos_slices"
+	"godesde0/mapas"
 )
 
 func main() {
@@ -49,5 +50,6 @@ func main() {
 	// funciones.Exponencia(2)
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestroSlice()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
