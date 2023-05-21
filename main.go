@@ -10,8 +10,9 @@ import (
 	// e "godesde0/ejer_interfaces"
 	// modelos "godesde0/modelos"
 	// dp "godesde0/defer_panic"
-	"fmt"
-	"godesde0/goroutines"
+	// "fmt"
+	// "godesde0/goroutines"
+	"godesde0/webserver"
 )
 
 func main() {
@@ -66,13 +67,14 @@ func main() {
 	// dp.VemosDefer()
 	// dp.EjemploPanic()
 
-	canal1 := make(chan bool)
-	go goroutines.MiNombreLento("Rufino Bernedo", canal1)
-	fmt.Println("Estoy aqui")
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLento("Rufino Bernedo", canal1)
+	// fmt.Println("Estoy aqui")
 
-	defer func() {
-		<-canal1
-	}()
+	// defer func() {
+	// 	<-canal1
+	// }()
 	// <-canal1
+	webserver.MiWebServer()
 
 }
