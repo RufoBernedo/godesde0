@@ -12,7 +12,8 @@ import (
 	// dp "godesde0/defer_panic"
 	// "fmt"
 	// "godesde0/goroutines"
-	"godesde0/webserver"
+	// "godesde0/webserver"
+	"godesde0/middleware"
 )
 
 func main() {
@@ -75,6 +76,7 @@ func main() {
 	// 	<-canal1
 	// }()
 	// <-canal1
-	webserver.MiWebServer()
+	// webserver.MiWebServer()
+	middleware.MiMiddleware()
 
 }
